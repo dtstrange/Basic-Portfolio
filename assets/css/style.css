@@ -34,7 +34,7 @@ header{
 	text-align: right;
 }
 
-#AM{
+.content-head{
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	font-size: 25px;
@@ -78,6 +78,30 @@ p{
 
 }
 
+.port-item{
+	width: 280px;
+	height: 280px;
+	float: left;
+	border:0px;
+	padding: 20px;
+}
+
+.port-text{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	font-size: 25px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	bottom: 28px;
+	width: 100%;
+
+}
+.port-image{
+	width: 100%;
+	height: 100%;
+}
+
 nav ul a:last-child{
 	border-right: none;
 }
@@ -91,6 +115,7 @@ nav ul a:last-child{
 	margin-bottom: 20px;
 	margin-left: 15px;
 	margin-right: 5px;
+	padding-left: 20px;
 }
 
 #contact{
@@ -113,7 +138,9 @@ footer{
 	text-align: center;
 	clear: both;
 	background-color: #666666;
+	position: -webkit-sticky;
 	position: sticky;
+	bottom: 0;
 	padding: 20px;
 	border-top: 5px solid #4aaaa5;
 
