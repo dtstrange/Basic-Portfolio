@@ -134,6 +134,41 @@ nav ul a:last-child{
 	min-height: 100%;
 }
 
+.form-input{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #777777;
+	border:5px;
+	
+}
+
+#fname{
+	width: 95%;
+	margin: 5px;
+	border-bottom: 10px;
+}
+
+#femail{
+	width: 95%;
+	margin: 5px;
+	border-bottom: 10px;
+}
+
+#fmessage{
+	width: 90%;
+	margin: 5px;
+	height: 175px;
+	border-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#fsubmit{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	color:#ffffff;
+
+
+}
+
 footer{
 	text-align: center;
 	clear: both;
