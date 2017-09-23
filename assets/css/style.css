@@ -9,7 +9,7 @@ header{
 	top: 0px;
 	padding: 20px;
 	display: inline-block;
-	width: 100%;
+	width: 98%;
 	height: 16px;
 	margin-bottom: 20px;
 
@@ -50,6 +50,7 @@ header{
 	border-bottom: 1px solid #777;
 	font-size: 20px;
 	margin-bottom: 10px;
+	padding: 5px;
 }
 a{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -92,7 +93,7 @@ p{
 	font-size: 25px;
 	text-align: center;
 	position: relative;
-	z-index: 1;
+	/*z-index: 1;*/
 	bottom: 28px;
 	width: 100%;
 
@@ -122,7 +123,7 @@ nav ul a:last-child{
 	background-color: white;
 	float: right;
 	width: 270px;
-	text-align: center;	
+	text-align: center;
 }
 
 #links{
@@ -173,11 +174,12 @@ footer{
 	text-align: center;
 	clear: both;
 	background-color: #666666;
-	position: -webkit-sticky;
 	position: sticky;
 	bottom: 0;
 	padding: 20px;
 	border-top: 5px solid #4aaaa5;
+	width: 98%;
+
 
 	
 	
